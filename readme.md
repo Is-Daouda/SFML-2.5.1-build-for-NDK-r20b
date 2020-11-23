@@ -1,8 +1,14 @@
 [![SFML logo](https://www.sfml-dev.org/images/logo.png)](https://www.sfml-dev.org)
 
-# SFML — Simple and Fast Multimedia Library
+# SFML 2.5.1 for Android NDK r20b
 
-SFML is a simple, fast, cross-platform and object-oriented multimedia API. It provides access to windowing, graphics, audio and network. It is written in C++, and has bindings for various languages such as C, .Net, Ruby, Python.
+This SFML version was compiled for 
+**[Android NDK r20b 64 bit](https://dl.google.com/android/repository/android-ndk-r20b-windows-x86_64.zip)**.
+
+## Install
+- Download it and put the **sfml folder** in the **source directory** of your **Android NDK (C:/Android/NDK/sources/sfml)**.
+- Download the [is::Engine](https://github.com/Is-Daouda/is-Engine) game engine and put it on **C:/ (C:/is-Engine)**.
+- is::Engine is already **preconfigured** to use this version of SFML (no need to link SFML files).
 
 ## Authors
 
@@ -20,10 +26,6 @@ SFML is a simple, fast, cross-platform and object-oriented multimedia API. It pr
 ## Download
 
 You can get the latest official release on [SFML's website](https://www.sfml-dev.org/download.php). You can also get the current development version from the [Git repository](https://github.com/SFML/SFML).
-
-## Install
-
-Follow the instructions of the [tutorials](https://www.sfml-dev.org/tutorials/), there is one for each platform/compiler that SFML supports.
 
 ## Learn
 
